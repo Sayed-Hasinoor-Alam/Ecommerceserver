@@ -156,7 +156,7 @@ exports.forgotpassword = async(req,res) =>{
             // set Token & Logo Value in ejs file 
 
             const data ={
-                passwordresetlink:`http://localhost:3000/resetpassword/${userfind.id}/${setusertoken.verifytoken}`,
+                passwordresetlink:`https://uniquecart.netlify.app/resetpassword/${userfind.id}/${setusertoken.verifytoken}`,
                 logo:"https://cdn-icons-png.flaticon.com/128/732/732200.png"
             }
             // set dynamic data in ejs 
